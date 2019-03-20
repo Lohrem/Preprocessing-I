@@ -183,10 +183,6 @@ header .links {
   margin-top: 10px;
   outline: none;
 }
-.main-content .info .contact-me:active {
-  outline: none;
-  transform: translateY(5px);
-}
 .more-info {
   display: flex;
   width: 100%;
@@ -194,4 +190,46 @@ header .links {
 .more-info .w-50 {
   width: 50%;
   padding: 15px;
+}
+.more-info h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.more-info .hobbies {
+  border: 1px solid rgba(26, 26, 26, 0.26);
+  border-bottom: none;
+  padding: 10px 5px;
+}
+.more-info .hobbies:first-child {
+  border-radius: 5px 5px 0 0;
+}
+.more-info .hobbies:last-child {
+  border-bottom: 1px solid rgba(26, 26, 26, 0.26);
+  border-radius: 0 0 5px 5px;
+}
+.more-info .about-me p {
+  font-size: 17px;
+}
+h1 {
+  font-size: 30px;
+}
+.work-history {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.work-history h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.work-history p {
+  padding: 10px 10px 0 0;
+}
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
 }
