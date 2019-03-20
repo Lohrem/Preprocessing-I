@@ -163,6 +163,7 @@ header {
 		text-decoration: none;
 	}
 }
+
 .main-content {
 	width: 100%;
 	background: rgba(26, 26, 26, 0.26);
@@ -174,8 +175,50 @@ header {
 		width: 300px;
 		height: auto;
 	}
+
 	h1 {
 		font-size: 45px;
 	}
-	
+
+	h2 {
+		margin: 10px 0;
+		font-size: 24px;
+	}
+
+	.info {
+		margin-top: 20px;
+		border-top: 1px solid rgba(26, 26, 26, 0.26);
+		padding-top: 20px;
+		font-size: 20px;
+
+		.contact-me {
+			.pill-btn();
+			outline: none;
+
+			&:active {
+				outline: none;
+				transform: translateY(5px);
+			}
+		}
+	}
+}
+
+.pill-btn() {
+	border-radius: 9999px;
+	background-color: steelblue;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.more-info {
+	display: flex;
+	width: 100%;
+
+	.w-50 {
+		width: 50%;
+		padding: 15px;
+	}
 }

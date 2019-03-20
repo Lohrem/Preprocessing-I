@@ -163,3 +163,35 @@ header .links {
 .main-content h1 {
   font-size: 45px;
 }
+.main-content h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.main-content .info {
+  margin-top: 20px;
+  border-top: 1px solid rgba(26, 26, 26, 0.26);
+  padding-top: 20px;
+  font-size: 20px;
+}
+.main-content .info .contact-me {
+  border-radius: 9999px;
+  background-color: steelblue;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  outline: none;
+}
+.main-content .info .contact-me:active {
+  outline: none;
+  transform: translateY(5px);
+}
+.more-info {
+  display: flex;
+  width: 100%;
+}
+.more-info .w-50 {
+  width: 50%;
+  padding: 15px;
+}
