@@ -233,3 +233,17 @@ footer {
   margin-top: 10px;
   color: red;
 }
+@media (max-width: 500px) {
+  header {
+    justify-content: center;
+  }
+  .more-info,
+  .work-history {
+    flex-direction: column;
+  }
+  .more-info .w-50,
+  .work-history .w-50 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
